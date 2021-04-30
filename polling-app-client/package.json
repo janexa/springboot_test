@@ -1,0 +1,33 @@
+{
+  "name": "polling-app-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.4",
+    "antd": "^3.2.2",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "countries-and-timezones": "^2.4.0",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33",
+    "react": "^16.5.2",
+    "react-bootstrap": "^1.5.2",
+    "react-country-flag": "^2.3.0",
+    "react-dom": "^16.5.2",
+    "react-flags": "^0.1.18",
+    "react-open-weather": "^1.1.5",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.5"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.6.5",
+    "react-app-rewire-less": "^2.1.0",
+    "react-app-rewired": "^1.4.1"
+  }
+}
